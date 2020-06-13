@@ -1,0 +1,57 @@
+body{
+background-image: url(https://d2gg9evh47fn9z.cloudfront.net/thumb_COLOURBOX19425712.jpg);
+color: yellow;
+font-size: 27px;
+
+}
+#name{
+    color: palegreen;
+    font-family: 'Marck Script', cursive;
+    text-align: center;
+    font-size: 75px;
+}
+.container{
+    background-image: url(https://videohive.img.customer.envatousercontent.com/files/a4c2e1aa-9c57-4516-8d8b-9ae80aae23a5/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=262fc93ff4a6fce00dfd3430edd1f45a);
+ 
+
+}
+.card{
+background-image: url(https://image.freepik.com/free-vector/abstract-technology-binary-code-background_6735-500.jpg);
+margin-bottom: 20px;
+margin-left: 20px;
+margin-right: 20px;
+
+margin-top: 20px;
+
+}
+h2{
+    text-align: center;
+}
+.card-img-top {
+    width: fill;
+    height: 15vh;
+    object-fit: fill;
+    align-content: center;
+    
+}
+.card-text{
+    font-size: 20px;
+}
+#link{
+    color: palegreen;
+    margin-right: 20px;
+    margin-left: 60px;
+    
+ 
+}
+.btn-primary, .nav-link, .navbar{
+background-color: black;
+color: yellow;
+}
+.indexBody{
+    background-image: url(https://videohive.img.customer.envatousercontent.com/files/a4c2e1aa-9c57-4516-8d8b-9ae80aae23a5/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=262fc93ff4a6fce00dfd3430edd1f45a);
+    
+color: white;
+font-size: 27px;
+
+}
