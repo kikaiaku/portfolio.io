@@ -12,6 +12,7 @@ font-size: 27px;
 }
 .container{
     background-image: url(https://videohive.img.customer.envatousercontent.com/files/a4c2e1aa-9c57-4516-8d8b-9ae80aae23a5/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=262fc93ff4a6fce00dfd3430edd1f45a);
+    height: 100%;
  
 
 }
@@ -54,4 +55,16 @@ color: yellow;
 color: white;
 font-size: 27px;
 
+}
+#footer{
+    text-align: center;
+    font-size: 15px;
+    color: yellow;
+    background-color: black;
+   padding: 10px;
+
+}
+#cont{
+    height: 100%;
+    padding-bottom: 282px;
 }
