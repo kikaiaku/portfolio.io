@@ -2,69 +2,98 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Faster+One&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+
 </head>
 
 <body>
-    <div class="container" id="cont">
-        <h1>Tom Scarborough </h1>
-
-        <nav class="navbar navbar-expand-lg navbar-dark ">
-            <a class="nav-link" href="index.html">About</a>
-            <a class="nav-link" href="Portfolio.html">Portfolio</a>
-            <a class="nav-link" href="contact.html">Contact</a>
-        </nav>
+  <div class="container" id="form-bg">
 
 
-        <H2>Contact</H2>
-        <form>
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Name</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1">Information</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                </div>
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <a class="nav-link" href="index.html">About</a>
+      <a class="nav-link" href="portfolio.html">Portfolio</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+    </nav>
+    <H2 id="contact">Contact</H2>
+    <div class="row justify-content-center pad">
+      <div class="col-md-6 col-lg-4 ">
+        <div class="card contact-page" style="width: 18rem;">
+          <img alt="Card image cap" class="card-img-top img-fluid " src="assets/email.png" class="card-img-top"
+            alt="email">
+          <div class="card-body">
+            <h5 class="card-title">tom.scarboroughjr@gmail.com</h5>
 
-                <button type="submit" class="btn btn-primary col-md-6">Submit</button>
-            </div>
-        </form>
-        <br>
-        <div class="row">
-            <div id="link">
-                <a href="assets/TomResume.pdf" class="btn btn-primary">Resume</a>
-                <a href="https://github.com/kikaiaku" class="btn btn-primary">Github Profile</a>
-                <a href="https://www.linkedin.com/in/thomas-scarborough-6336b144/" class="btn btn-primary">Linkedin
-                    Profile</a>
+            <a class="email-link" href="mailto: tom.scarboroughjr@gmail.com">Send Email</a>
 
 
-            </div>
+          </div>
         </div>
+
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card" style="width: 18rem;">
+          <img alt="Card image cap" class="card-img-top img-fluid " src="assets/resume-icon-16.jpg" class="card-img-top"
+            alt="Budget Tracker">
+          <div class="card-body">
+            <h5 class="card-title">Here is more about me.</h5>
+            <a class="email-link" href="assets/TomResume.pdf" target="_blank">Resume</a>
+
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+      <div class="col-lg-4 col-md-6">
+
+        <div class="card" style="width: 18rem;">
+          <img alt="Card image cap" class="card-img-top img-fluid" src="assets/github.png" class="card-img-top"
+            alt="Code Generator">
+          <div class="card-body">
+            <h5 class="card-title">Checkout my Github</h5>
+            <a class="email-link" href="https://github.com/kikaiaku" target="_blank">Github Profile</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+
+        <div class="card" style="width: 18rem;">
+          <img alt="Card image cap" class="card-img-top img-fluid im" src="assets/linkedin.jpg" class="card-img-top"
+            alt="code quiz">
+          <div class="card-body">
+            <h5 class="card-title">Checkout my LinkedIn</h5>
+            <a class="email-link " href="https://www.linkedin.com/in/thomas-scarborough-6336b144/" target="_blank">LinkedIn
+              Profile</a>
+        </div>
+      </div>
+
+
+
+
     </div>
-
-
+  </div>
 </body>
-<footer id="footer">
-    Created by Tom Scarborough.
+<footer id="foot">
+  Created by Tom Scarborough.
 </footer>
+
+
 
 </html>

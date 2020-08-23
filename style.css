@@ -4,20 +4,68 @@ color: yellow;
 font-size: 27px;
 
 }
+/* #form-bg{
+    background-image: url(https://videohive.img.customer.envatousercontent.com/files/a4c2e1aa-9c57-4516-8d8b-9ae80aae23a5/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=262fc93ff4a6fce00dfd3430edd1f45a);
+    height: 100%;
+color: yellow;
+font-size: 27px;
+margin-bottom: 300px;
+
+
+} */
 #name{
     color: palegreen;
     font-family: 'Marck Script', cursive;
     text-align: center;
     font-size: 75px;
 }
+#contact{
+    color: yellow;
+    font-family:'Marck Script', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+.email{
+    color: yellow;
+    font-family:'Marck Script', cursive;
+    text-align: left;
+    font-size: 50px;
+    margin-left: 20px;
+        }
+#email_link{
+    color: yellow;
+    text-align: left;
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 20px;
+    font-family: 'Marck Script', cursive;
+
+    }
+.link_contact{
+        color: yellow;
+        text-align: left;
+        font-size: 50px;
+        font-family: 'Marck Script', cursive;
+        margin-left: 20px;
+
+        }
+        .link_contact:hover{
+            color: white;
+        }
+
 .container{
+    
     background-image: url(https://videohive.img.customer.envatousercontent.com/files/a4c2e1aa-9c57-4516-8d8b-9ae80aae23a5/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=262fc93ff4a6fce00dfd3430edd1f45a);
     height: 100%;
- 
-
+   /* padding-bottom: 200px; */
 }
 .card{
-background-image: url(https://image.freepik.com/free-vector/abstract-technology-binary-code-background_6735-500.jpg);
+    
+    background: linear-gradient(
+        309deg,
+        rgba(0, 2, 1, 0.972) 34%,
+        rgb(2, 5, 165) 80%);
+/* background-image: url(https://image.freepik.com/free-vector/abstract-technology-binary-code-background_6735-500.jpg); */
 margin: 10px auto;
 
 margin-top: 20px;
@@ -46,23 +94,73 @@ h2{
 .btn-primary, .nav-link, .navbar{
 background-color: black;
 color: yellow;
+
+
+}
+.nav-link:hover{
+    color: white;
 }
 .indexBody{
-    background-image: url(https://videohive.img.customer.envatousercontent.com/files/a4c2e1aa-9c57-4516-8d8b-9ae80aae23a5/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=262fc93ff4a6fce00dfd3430edd1f45a);
+    /* background-image: url(https://videohive.img.customer.envatousercontent.com/files/a4c2e1aa-9c57-4516-8d8b-9ae80aae23a5/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=262fc93ff4a6fce00dfd3430edd1f45a); */
     
 color: white;
 font-size: 27px;
 
+}
+.indexBody1{
+  
+    
+color: white;
+font-size: 27px;
+margin-left: 15px;
+margin-top: -20px;
 }
 #footer{
     text-align: center;
     font-size: 15px;
     color: yellow;
     background-color: black;
-   padding: 10px;
-
+   padding: 20px;
+   margin-right: 260px;
+   margin-left: 260px;
+}
+#foot{
+    text-align: center;
+    font-size: 15px;
+    color: yellow;
+    background-color: black;
+    padding: 20px;
+    margin-right: -10px;
 }
 #cont{
     height: 100%;
     padding-bottom: 282px;
+}
+.card-body{
+    text-align: center;
+}
+.contact-page{
+    background-color: black;
+}
+.tom{
+    font-size: 40px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.bullet-job{
+    list-style-type: "~";
+    list-style-position: outside;
+}
+.email-link{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.email-link:hover{
+    color: yellow;
+}
+.pad{
+    padding-bottom: 78px;
+}
+.im{
+    color: white;
 }
